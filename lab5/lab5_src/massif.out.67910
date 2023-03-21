@@ -1,0 +1,606 @@
+desc: --stacks=yes
+cmd: ./fft_serial
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=402511981
+mem_heap_B=17290
+mem_heap_extra_B=166
+mem_stacks_B=2584
+heap_tree=detailed
+n7: 17290 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4096 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 4096 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 4096 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2048 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n1: 1815 0x52A7969: __tzfile_read (tzfile.c:279)
+  n1: 1815 0x52A7397: tzset_internal (tzset.c:406)
+   n1: 1815 0x52A7397: __tz_convert (tzset.c:584)
+    n1: 1815 0x1098F4: timestamp (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+     n0: 1815 0x108AE5: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n1: 1024 0x525126B: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 1024 0x5261448: _IO_doallocbuf (genops.c:365)
+   n1: 1024 0x5260567: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:759)
+    n1: 1024 0x525EABC: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1266)
+     n1: 1024 0x5253B6E: puts (ioputs.c:40)
+      n1: 1024 0x109923: timestamp (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+       n0: 1024 0x108AE5: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 115 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=714284220
+mem_heap_B=31626
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=965592170
+mem_heap_B=117642
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1348834478
+mem_heap_B=232330
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1578145406
+mem_heap_B=232330
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1939885157
+mem_heap_B=232330
+mem_heap_extra_B=166
+mem_stacks_B=2832
+heap_tree=detailed
+n5: 232330 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 65536 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 65536 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 65536 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 32768 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=2173002286
+mem_heap_B=920458
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2544405047
+mem_heap_B=1837962
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2770839711
+mem_heap_B=1837962
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2954521817
+mem_heap_B=1837962
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=3233975081
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=480
+heap_tree=detailed
+n5: 3672970 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1048576 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 1048576 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 1048576 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 524288 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=3457202062
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=3804516151
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=4032520054
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=4429541328
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=4787601319
+mem_heap_B=3672970
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=5153749159
+mem_heap_B=7342986
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=5457425507
+mem_heap_B=7342986
+mem_heap_extra_B=166
+mem_stacks_B=496
+heap_tree=detailed
+n5: 7342986 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 2097152 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2097152 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2097152 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 1048576 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=5672313820
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=448
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=5942933437
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=6216322171
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=6538103701
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=6678592979
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=6951981713
+mem_heap_B=14683018
+mem_heap_extra_B=12262
+mem_stacks_B=496
+heap_tree=detailed
+n5: 14683018 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4194304 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 4194304 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 4194304 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2097152 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=7334269220
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=448
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=7682694908
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=7953880888
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=8202134438
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=8416388437
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=8619465730
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=8822368392
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=9042978730
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=9256200537
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=9459261702
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=9783799301
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=detailed
+n5: 29363082 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 8388608 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 8388608 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 4194304 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=9989537714
+mem_heap_B=29363082
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=10327757603
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=480
+heap_tree=peak
+n5: 58723210 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 8388608 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=10728237624
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=448
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=11076047759
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=11366241455
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=11638003149
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=11908612843
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=12179150537
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=12415604943
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=12729391755
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=13002628009
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=13273329863
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=13543873317
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=13780328063
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=472
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=13920817346
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=392
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=14072134299
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=392
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=14289188640
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=detailed
+n5: 58723210 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 8388608 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=14440183729
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=14647670919
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=14851144030
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=15054115380
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=15257024011
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=15459924801
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=15628745824
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=15798615437
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=15942532636
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=16147955443
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=detailed
+n5: 58723210 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16777216 0x108BC1: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BD6: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 16777216 0x108BEB: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 8388608 0x108BAC: main (in /home/wwwj/lab/lab5/fft_serial/fft_serial)
+ n0: 2954 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=16351170505
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=16554109600
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=16757014198
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=16959914485
+mem_heap_B=58723210
+mem_heap_extra_B=16294
+mem_stacks_B=496
+heap_tree=empty
